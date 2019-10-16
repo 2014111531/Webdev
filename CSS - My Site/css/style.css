@@ -1,0 +1,193 @@
+
+
+/*body{
+  background-color: #c7f0db;
+}*/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+/*  font-size: 2em;*/
+  color: #40514E;
+
+}
+
+h1{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*rootem rem does not get affected by parent settings, rem is recommended because it is the least error prone*/
+  /*width: 30%;
+  margin: 0 auto 0 auto;*/
+  color: #66BFBF;
+  /*line-height: 2;*/
+}
+
+h2{
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+/*p{
+  margin: 0;
+  position: relative;
+  top: 40px;
+
+}*/
+
+.top-container{
+
+/*  height: 200px;
+  width: 200px; */
+  background-color: #d2fafb;
+  position: relative;
+  padding-top: 100px;
+}
+
+/*
+.middle-container{
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+.bottom-container{
+  height: 200px;
+  width:200px;
+  background-color: yellow;
+}
+*/
+
+.profile{
+  border-radius: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pro{
+
+  text-decoration: underline;
+
+}
+
+.bottom-cloud{
+
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+
+.top-cloud{
+
+  position: absolute;
+  top: 50px;
+  right:300px;
+}
+
+.btn{
+  background-color: #66BFBF;
+  color: white;
+  text-shadow: none;
+  border-radius: 4px;
+  border-style: none;
+  height: 40px;
+  width: 130px;
+
+}
+
+.comp-img{
+  border-radius: 50%;
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.chilli-img{
+  border-radius: 50%;
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+
+a{
+  color: #66BFBF;
+  font-family:'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  width:50%;
+  text-align: left;
+  line-height: 2;
+}
+
+/*
+.code-skill-description{
+  clear: left;
+
+}
+
+.code-skill-description2{
+  clear: right;
+
+}*/
+hr{
+  border-style: none;
+  border-top: dotted;
+  border-color: lightgrey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.Get-In-Touch{
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.Get-In-Touch2{
+  font-weight: bold;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding:20px;
+
+}
+
+.copyright{
+  margin-bottom: 0;
+  padding-top: 20px;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.footer-link{
+  color: #11999E;
+}
+
+.btn{
+  margin:30px auto 50px auto;
+}
+
+.MySkills{
+  margin-top: 60px;
+}
+
+.hr1{
+  margin-top: 60px;
+}

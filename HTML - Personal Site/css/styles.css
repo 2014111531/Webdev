@@ -1,0 +1,20 @@
+body{
+  background-color: #ddb6c6;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  width: 5%;
+}
+
+img{
+  height: 300px;
+}
+
+h1,h3{
+  color: #484c7f;
+  font-family: "Gill Sans", sans-serif;
+}
