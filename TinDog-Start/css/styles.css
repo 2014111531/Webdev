@@ -53,3 +53,24 @@ h1{
   font-family: "Montserrat-light";
   font-size: 1.2rem;
 }
+
+#features{
+  margin: 100px 100px 100px 50px;
+  text-align: center;
+}
+
+.icons{
+  font-size: 3em !important;
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.icons:hover{
+  color:#ff4c68;
+}
+
+.text{
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
