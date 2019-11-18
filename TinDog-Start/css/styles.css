@@ -1,16 +1,26 @@
-body{
-    font-family: "Montserrat";
+body {
+  font-family: "Montserrat";
 }
 
-#title{
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.container {
+  padding: 0 50px;
+}
+
+#title {
   background-color: #ff4c68;
+  position: relative;
 }
 
-.container-fluid{
-  padding: 3% 15%;
+.container-fluid {
+  padding: 3% 15% 15%;
+  position: relative;
 }
 
-h1{
+h1 {
   margin-top: 50px;
   margin-bottom: 30px;
   font-family: "Montserrat-black";
@@ -20,57 +30,94 @@ h1{
   color: white;
 }
 
-#FirstButton{
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#FirstButton {
   margin-right: 15px;
 }
 
 /* NavigationBar */
-.navbar{
+.navbar {
   padding-left: 0;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 2rem;
   font-family: "Ubuntu";
 }
 
 .rotateimg30 {
-  -webkit-transform:rotate(25deg);
-  -moz-transform: rotate(25deg);
-  -ms-transform: rotate(25deg);
-  -o-transform: rotate(25deg);
   transform: rotate(25deg);
-
-  margin-top: 60px;
+  margin-top: 45px;
   width: 60%;
+  position: absolute;
+  right: 25%;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 20px 0 20px;
 }
 
-.nav-link{
+.nav-link {
   font-family: "Montserrat-light";
   font-size: 1.2rem;
 }
 
-#features{
-  margin: 100px 100px 100px 50px;
+#features {
+  padding: 7% 15%;
   text-align: center;
+  background-color: #ffffff;
+  position: relative;
+  /* z-index: 1; */
 }
 
-.icons{
+.icons {
   font-size: 3em !important;
   color: #ef8172;
   margin-bottom: 20px;
 }
 
-.icons:hover{
-  color:#ff4c68;
+.icons:hover {
+  color: #ff4c68;
 }
 
-.text{
+.text {
   color: #8f8f8f;
 }
 
 /* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
