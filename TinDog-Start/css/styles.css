@@ -121,3 +121,58 @@ h2 {
 .pricing-column {
   padding: 3% 2%;
 }
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotateimg30 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.ctah3{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 50px;
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.ctab1{
+  margin: 0 30px 100px 0;
+}
+.ctab2{
+  margin: 0 0 100px 30px;
+}
+
+#footer{
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+
+#cp{
+  padding-top: 10px;
+  color: grey;
+}
+
+.fa-twitter{
+  margin-right: 10px;
+}
+.fa-facebook-f{
+  margin-right: 10px;
+}
+.fa-instagram{
+  margin-right: 10px;
+}
