@@ -1,28 +1,20 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
-.container {
-  padding: 0 50px;
+p{
+  color: #8f8f8f;
 }
 
-#title {
-  background-color: #ff4c68;
-  position: relative;
-}
-
-.container-fluid {
-  padding: 3% 15% 15%;
-  position: relative;
-}
-
-h1 {
-  margin-top: 50px;
-  margin-bottom: 30px;
+/* Headings */
+.big-heading{
+  /* margin-top: 50px;
+  margin-bottom: 30px; */
   font-family: "Montserrat-black";
   font-size: 3.5rem;
   line-height: 1.5;
@@ -30,49 +22,87 @@ h1 {
   color: white;
 }
 
-h2 {
-  font-family: "Montserrat-bold";
+.section-heading{
   font-size: 3rem;
   line-height: 1.5;
 }
 
-#FirstButton {
-  margin-right: 15px;
+/* Containers */
+.container-fluid {
+  padding:7% 15%;
+  /* position: relative; */
 }
 
-/* NavigationBar */
-.navbar {
-  padding-left: 0;
+/* Section */
+.colored-section{
+  background-color: #ff4c68;
+  color: fff;
 }
 
-.navbar-brand {
-  font-size: 2rem;
+/* white-section */
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
   font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.rotateimg30 {
-  transform: rotate(25deg);
-  margin-top: 45px;
-  width: 60%;
-  position: absolute;
-  right: 25%;
+.nav-item{
+  padding: 0 18px;
 }
 
-.nav-item {
-  padding: 0 20px 0 20px;
-}
-
-.nav-link {
-  font-family: "Montserrat-light";
+.nav-link{
   font-size: 1.2rem;
+  font-family: "Montserrat-light";
 }
 
-#features {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #ffffff;
+/* Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  /* position: relative; */
+  text-align: left;
+  color: #ffffff;
+  /* padding-bottom: 15%; */
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Title Image */
+.rotateimg30 {
+  /* margin-top: 45px; */
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+ #features {
   position: relative;
   /* z-index: 1; */
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 4.5%;
 }
 
 .icons {
@@ -85,15 +115,14 @@ h2 {
   color: #ff4c68;
 }
 
-.text {
-  color: #8f8f8f;
+/* Testimonial Section */
+#testimonials{
+  background-color: #ef8172;
 }
 
-/* Testimonial Section */
-#testimonials {
-  text-align: center;
-  background-color: #ef8172;
-  color: #ffffff;
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -104,7 +133,6 @@ h2 {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -113,15 +141,28 @@ h2 {
   margin: 20px 20px 50px;
 }
 
+/* Pricing Section */
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
+/* CTA Section */
+/* Footer Section */
+
+.socialicons{
+  margin: 20px 10px;
+}
+
+/* Responsive layout */
 @media (max-width: 1028px) {
   #title {
     text-align: center;
@@ -133,12 +174,31 @@ h2 {
   }
 }
 
-#cta{
-  background-color: #ff4c68;
-  text-align: center;
+
+/* REFACTORED CODE */
+
+/* #FirstButton {
+  margin-right: 15px;
 }
 
-.ctah3{
+.nav-item {
+  padding: 0 20px 0 20px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+} */
+
+/* .text {
+  color: #8f8f8f;
+} */
+
+/* #cta{
+  background-color: #ff4c68;
+} */
+
+/* .ctah3{
   margin-top: 50px;
   margin-bottom: 30px;
   padding: 50px;
@@ -148,26 +208,9 @@ h2 {
   font-weight: bold;
   color: white;
   text-align: center;
-}
+} */
 
-.ctab1{
-  margin: 0 30px 100px 0;
-}
-.ctab2{
-  margin: 0 0 100px 30px;
-}
-
-#footer{
-  text-align: center;
-  padding: 100px 0 50px 0;
-}
-
-#cp{
-  padding-top: 10px;
-  color: grey;
-}
-
-.fa-twitter{
+/* .fa-twitter{
   margin-right: 10px;
 }
 .fa-facebook-f{
@@ -175,4 +218,4 @@ h2 {
 }
 .fa-instagram{
   margin-right: 10px;
-}
+} */
